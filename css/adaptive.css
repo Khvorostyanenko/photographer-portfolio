@@ -1,0 +1,188 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .cursor,.cursor2,.cursor3{
+    display: none
+  }
+
+ /*  .hero-section .dancing{
+   font-size: 15px;
+   transform: translateY(-80px) rotate(-45deg);
+ } */
+
+  .hero-section {
+      background-position: 20% center;
+
+  }
+
+  .hero-section:before {
+     content: '';
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+     background-color: rgba( 0, 0, 0, 0.15);
+    }
+
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  
+}
+
+@media only screen and (max-width: 967px) {
+
+  .hero-section p span{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+  .hero-section h1{
+    font-size: calc(33px + (70 + 70 * 0.7) * ((100vw - 320px) / 1280));
+  } 
+
+  .hero-section p{
+    font-size: calc(19px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280));
+
+  }
+
+  .hero-section:before {
+     content: '';
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+     background-color: rgba( 0, 0, 0, 0.20);
+    }
+
+    .about-text {
+      font-size: calc(22px + (18 + 18 * 0.7) * ((100vw - 320px) / 1280)); 
+    }
+
+    .contact-text {
+      font-size: calc(22px + (18 + 18 * 0.7) * ((100vw - 320px) / 1280)); 
+    }
+
+    .contact-section a {
+       font-size: calc(18px + (14 + 14 * 0.7) * ((100vw - 320px) / 1280)); 
+    }
+
+    .hero-section .dancing{
+      font-size: calc(9px + (16 + 26 * 0.7) * ((100vw - 320px) / 1280));
+    }
+
+    .contact-section .social a{
+      font-size: calc(16px + (4 + 4 * 0.7) * ((100vw - 320px) / 1280)); 
+    }
+
+    .about-section p {
+      font-size: calc(15px + (5 + 5 * 0.7) * ((100vw - 320px) / 1280)); 
+    }
+
+    .about-section p span {
+      font-size: calc(20px + (6 + 6 * 0.7) * ((100vw - 320px) / 1280)); 
+
+    }
+
+    .club-section h3,
+    .events-section h3,
+    .private-section h3,
+    .subject-section h3 {
+        font-size: calc(35px + (42 + 42 * 0.7) * ((100vw - 320px) / 1280)); 
+      }
+}
+
+@media only screen and (max-width: 580px){
+
+  .contact-section .social a{
+    margin-left: 3px;
+    margin-right: 3px;
+    letter-spacing: 0;
+  }
+
+    .hero-section {
+      background-position: 14% center;
+
+  }
+
+  .hero-section:before {
+     content: '';
+     width: 100%;
+     height: 100%;
+     left: 0;
+     top: 0;
+     position: absolute;
+     background-color: rgba( 0, 0, 0, 0.25);
+    }
+
+  .hero-section p {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-section .dancing {
+      transform: translateY(-30px) rotate(-0deg);
+
+    }
+
+
+
+  
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .hero-section {
+    background-image: url('../img/main_back_extra-small.jpg');
+    background-position: 31% center;
+
+  }
+
+   .hero-section .dancing {
+      transform: translateY(-14px) rotate(-0deg);
+
+    }
+
+  
+
+ 
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  
+
+}
+/*==========  Mobile First  ========== */
+
+@media (min-width: 320px) {
+  .grid-item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid-item {
+    width: 33.333%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .grid-item {
+    width: 25%;
+  }
+}
+
+@media (min-width: 2100px) {
+  .grid-item {
+    width: 20%;
+  }
+}
