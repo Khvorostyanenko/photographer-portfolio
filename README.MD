@@ -1,1 +1,1 @@
-Hello, this is photographer portfolio, commercial. Test new branch git for git flow
+Hello, this is photographer portfolio, commercial. Test new branch git for git flow. Bug fixes for release 0.1.0
